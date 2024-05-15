@@ -168,7 +168,7 @@ def output_visualization(out, background, history) -> None:
         frame_count += 1
 
 
-src = cv2.VideoCapture("test.mp4")
+src = cv2.VideoCapture("inp.mp4")
 window_w = int(src.get(3))
 window_h = int(src.get(4))
 history = object_detection(src)
