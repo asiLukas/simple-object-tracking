@@ -1,16 +1,17 @@
 # Real-Time Object Tracking Simulation
 
-### Objective:
+### Objective
 
-Develop a Python script that simulates real-time object tracking using input from a simulated video feed, __luxonis_task_video.mp4__. 
+Develop a Python script that simulates real-time object tracking using input from a simulated video feed, __inp.mp4__. 
 
 The task will involve processing a series of images (frames) to identify and track the movement of circles and rectangles of various colors across
 these frames.
 The output will include the coordinates of the object in each frame and a simple visualization showing the tracked path of the object over time.
 
 ### Usage
+
 Create a virtual environment(ideally with python 3.11) and download requirements.
-`pip -r install requirements`
+`pip -r install requirements.txt`
 
 To run the app (which includes starting the object detector) run `python main.py`
 This will start the object detector, you can press `ESC` key on your keyboard at any point to skip ahead to the output visualization (by doing so, the visualization will end in the same frame as you pressed `ESC`)
